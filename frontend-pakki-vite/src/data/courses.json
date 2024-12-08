@@ -1,0 +1,1072 @@
+{
+  "degrees": [
+    {
+      "id": 1,
+      "name": "Software Engineering",
+      "level": "Bachelor",
+      "years": 4,
+      "credits": 240,
+      "curriculum": [
+        {
+          "course_id": "SE101",
+          "course_name": "Introduction to Programming",
+          "credits": 5,
+          "schedule": "Friday 14:00-16:00"
+        },
+        {
+          "course_id": "SE102",
+          "course_name": "Data Structures and Algorithms",
+          "credits": 5,
+          "schedule": "Monday 11:00-13:00"
+        },
+        {
+          "course_id": "SE103",
+          "course_name": "Discrete Mathematics",
+          "credits": 5,
+          "schedule": "Tuesday 12:00-14:00"
+        },
+        {
+          "course_id": "SE104",
+          "course_name": "Introduction to Computer Systems",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "SE201",
+          "course_name": "Object-Oriented Programming",
+          "credits": 5,
+          "schedule": "Friday 12:00-14:00"
+        },
+        {
+          "course_id": "SE202",
+          "course_name": "Database Systems",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "SE203",
+          "course_name": "Software Development Lifecycle",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "SE204",
+          "course_name": "Operating Systems",
+          "credits": 5,
+          "schedule": "Monday 15:00-17:00"
+        },
+        {
+          "course_id": "SE301",
+          "course_name": "Web Development",
+          "credits": 5,
+          "schedule": "Friday 11:00-13:00"
+        },
+        {
+          "course_id": "SE302",
+          "course_name": "Mobile Application Development",
+          "credits": 5,
+          "schedule": "Monday 10:00-12:00"
+        },
+        {
+          "course_id": "SE303",
+          "course_name": "Software Testing and Quality Assurance",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "SE304",
+          "course_name": "Computer Networks",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "SE401",
+          "course_name": "Cloud Computing",
+          "credits": 5,
+          "schedule": "Thursday 15:00-17:00"
+        },
+        {
+          "course_id": "SE402",
+          "course_name": "Machine Learning",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "SE403",
+          "course_name": "Cybersecurity Fundamentals",
+          "credits": 5,
+          "schedule": "Friday 11:00-13:00"
+        },
+        {
+          "course_id": "SE404",
+          "course_name": "Human-Computer Interaction",
+          "credits": 5,
+          "schedule": "Tuesday 08:00-10:00"
+        },
+        {
+          "course_id": "SE405",
+          "course_name": "Advanced Software Engineering",
+          "credits": 5,
+          "schedule": "Friday 11:00-13:00"
+        },
+        {
+          "course_id": "SE406",
+          "course_name": "Data Science and Big Data",
+          "credits": 5,
+          "schedule": "Tuesday 10:00-12:00"
+        },
+        {
+          "course_id": "SE407",
+          "course_name": "Project Management in Software Engineering",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "SE408",
+          "course_name": "Ethics and Professional Practice in IT",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "SE409",
+          "course_name": "Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Tuesday 10:00-13:00"
+        },
+        {
+          "course_id": "SE410",
+          "course_name": "Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Tuesday 12:00-16:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "International Business",
+      "level": "Bachelor",
+      "years": 3,
+      "credits": 180,
+      "curriculum": [
+        {
+          "course_id": "IB101",
+          "course_name": "Principles of Management",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "IB102",
+          "course_name": "Introduction to International Business",
+          "credits": 5,
+          "schedule": "Thursday 12:00-14:00"
+        },
+        {
+          "course_id": "IB103",
+          "course_name": "Microeconomics",
+          "credits": 5,
+          "schedule": "Wednesday 15:00-17:00"
+        },
+        {
+          "course_id": "IB104",
+          "course_name": "Macroeconomics",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "IB201",
+          "course_name": "Business Law",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "IB202",
+          "course_name": "Financial Accounting",
+          "credits": 5,
+          "schedule": "Tuesday 09:00-11:00"
+        },
+        {
+          "course_id": "IB203",
+          "course_name": "Marketing Fundamentals",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "IB204",
+          "course_name": "International Economics",
+          "credits": 5,
+          "schedule": "Tuesday 10:00-12:00"
+        },
+        {
+          "course_id": "IB301",
+          "course_name": "Corporate Finance",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "IB302",
+          "course_name": "Organizational Behavior",
+          "credits": 5,
+          "schedule": "Thursday 08:00-10:00"
+        },
+        {
+          "course_id": "IB303",
+          "course_name": "Operations Management",
+          "credits": 5,
+          "schedule": "Tuesday 12:00-14:00"
+        },
+        {
+          "course_id": "IB304",
+          "course_name": "Business Statistics",
+          "credits": 5,
+          "schedule": "Friday 14:00-16:00"
+        },
+        {
+          "course_id": "IB401",
+          "course_name": "International Marketing",
+          "credits": 5,
+          "schedule": "Friday 15:00-17:00"
+        },
+        {
+          "course_id": "IB402",
+          "course_name": "Cross-Cultural Communication",
+          "credits": 5,
+          "schedule": "Wednesday 13:00-15:00"
+        },
+        {
+          "course_id": "IB403",
+          "course_name": "Strategic Management",
+          "credits": 5,
+          "schedule": "Monday 15:00-17:00"
+        },
+        {
+          "course_id": "IB404",
+          "course_name": "International Trade and Finance",
+          "credits": 5,
+          "schedule": "Wednesday 13:00-15:00"
+        },
+        {
+          "course_id": "IB405",
+          "course_name": "Global Supply Chain Management",
+          "credits": 5,
+          "schedule": "Tuesday 10:00-12:00"
+        },
+        {
+          "course_id": "IB406",
+          "course_name": "Ethics and Corporate Social Responsibility",
+          "credits": 5,
+          "schedule": "Thursday 13:00-15:00"
+        },
+        {
+          "course_id": "IB407",
+          "course_name": "International Business Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Tuesday 12:00-14:00"
+        },
+        {
+          "course_id": "IB408",
+          "course_name": "International Business Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Wednesday 10:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nursing",
+      "level": "Bachelor",
+      "years": 4,
+      "credits": 240,
+      "curriculum": [
+        {
+          "course_id": "NU101",
+          "course_name": "Human Anatomy and Physiology",
+          "credits": 5,
+          "schedule": "Tuesday 09:00-11:00"
+        },
+        {
+          "course_id": "NU102",
+          "course_name": "Health Assessment",
+          "credits": 5,
+          "schedule": "Wednesday 15:00-17:00"
+        },
+        {
+          "course_id": "NU103",
+          "course_name": "Introduction to Nursing Practice",
+          "credits": 5,
+          "schedule": "Monday 15:00-17:00"
+        },
+        {
+          "course_id": "NU104",
+          "course_name": "Microbiology for Nurses",
+          "credits": 5,
+          "schedule": "Thursday 10:00-12:00"
+        },
+        {
+          "course_id": "NU201",
+          "course_name": "Pathophysiology",
+          "credits": 5,
+          "schedule": "Wednesday 11:00-13:00"
+        },
+        {
+          "course_id": "NU202",
+          "course_name": "Pharmacology",
+          "credits": 5,
+          "schedule": "Friday 08:00-10:00"
+        },
+        {
+          "course_id": "NU203",
+          "course_name": "Nursing Ethics and Law",
+          "credits": 5,
+          "schedule": "Monday 11:00-13:00"
+        },
+        {
+          "course_id": "NU204",
+          "course_name": "Therapeutic Communication",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "NU301",
+          "course_name": "Adult Health Nursing",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "NU302",
+          "course_name": "Pediatric Nursing",
+          "credits": 5,
+          "schedule": "Monday 13:00-15:00"
+        },
+        {
+          "course_id": "NU303",
+          "course_name": "Mental Health Nursing",
+          "credits": 5,
+          "schedule": "Monday 15:00-17:00"
+        },
+        {
+          "course_id": "NU304",
+          "course_name": "Maternal and Newborn Nursing",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "NU401",
+          "course_name": "Community Health Nursing",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "NU402",
+          "course_name": "Gerontological Nursing",
+          "credits": 5,
+          "schedule": "Thursday 15:00-17:00"
+        },
+        {
+          "course_id": "NU403",
+          "course_name": "Evidence-Based Nursing Practice",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "NU404",
+          "course_name": "Leadership and Management in Nursing",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "NU405",
+          "course_name": "Critical Care Nursing",
+          "credits": 5,
+          "schedule": "Thursday 13:00-15:00"
+        },
+        {
+          "course_id": "NU406",
+          "course_name": "Nursing Research and Informatics",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "NU407",
+          "course_name": "Advanced Nursing Skills Lab",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "NU408",
+          "course_name": "Professional Development and Ethics",
+          "credits": 5,
+          "schedule": "Monday 09:00-11:00"
+        },
+        {
+          "course_id": "NU409",
+          "course_name": "Nursing Practicum Part 1",
+          "credits": 10,
+          "schedule": "Tuesday 15:00-17:00"
+        },
+        {
+          "course_id": "NU410",
+          "course_name": "Nursing Practicum Part 2",
+          "credits": 10,
+          "schedule": "Monday 09:00-13:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Environmental Engineering",
+      "level": "Bachelor",
+      "years": 4,
+      "credits": 240,
+      "curriculum": [
+        {
+          "course_id": "EE101",
+          "course_name": "Introduction to Environmental Engineering",
+          "credits": 5,
+          "schedule": "Tuesday 10:00-12:00"
+        },
+        {
+          "course_id": "EE102",
+          "course_name": "Environmental Chemistry",
+          "credits": 5,
+          "schedule": "Monday 08:00-10:00"
+        },
+        {
+          "course_id": "EE103",
+          "course_name": "Physics for Environmental Engineers",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "EE104",
+          "course_name": "Mathematics for Engineers",
+          "credits": 5,
+          "schedule": "Thursday 15:00-17:00"
+        },
+        {
+          "course_id": "EE201",
+          "course_name": "Ecology and Environmental Science",
+          "credits": 5,
+          "schedule": "Friday 12:00-14:00"
+        },
+        {
+          "course_id": "EE202",
+          "course_name": "Water Resource Management",
+          "credits": 5,
+          "schedule": "Monday 12:00-14:00"
+        },
+        {
+          "course_id": "EE203",
+          "course_name": "Soil Science and Land Use",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "EE204",
+          "course_name": "Hydrology and Water Systems",
+          "credits": 5,
+          "schedule": "Friday 08:00-10:00"
+        },
+        {
+          "course_id": "EE301",
+          "course_name": "Air Pollution Control",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "EE302",
+          "course_name": "Solid Waste Management",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "EE303",
+          "course_name": "Environmental Impact Assessment",
+          "credits": 5,
+          "schedule": "Friday 12:00-14:00"
+        },
+        {
+          "course_id": "EE304",
+          "course_name": "Sustainable Energy Systems",
+          "credits": 5,
+          "schedule": "Friday 12:00-14:00"
+        },
+        {
+          "course_id": "EE401",
+          "course_name": "Renewable Energy Technologies",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "EE402",
+          "course_name": "Environmental Policy and Regulation",
+          "credits": 5,
+          "schedule": "Wednesday 11:00-13:00"
+        },
+        {
+          "course_id": "EE403",
+          "course_name": "Climate Change and Environmental Modeling",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "EE404",
+          "course_name": "Green Building Design",
+          "credits": 5,
+          "schedule": "Wednesday 13:00-15:00"
+        },
+        {
+          "course_id": "EE405",
+          "course_name": "Environmental Monitoring and Data Analysis",
+          "credits": 5,
+          "schedule": "Monday 14:00-16:00"
+        },
+        {
+          "course_id": "EE406",
+          "course_name": "Circular Economy and Waste Reduction",
+          "credits": 5,
+          "schedule": "Monday 13:00-15:00"
+        },
+        {
+          "course_id": "EE407",
+          "course_name": "Project Management for Environmental Engineers",
+          "credits": 5,
+          "schedule": "Wednesday 08:00-10:00"
+        },
+        {
+          "course_id": "EE408",
+          "course_name": "Ethics and Professional Practice in Environmental Engineering",
+          "credits": 5,
+          "schedule": "Monday 12:00-14:00"
+        },
+        {
+          "course_id": "EE409",
+          "course_name": "Environmental Engineering Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Wednesday 08:00-12:00"
+        },
+        {
+          "course_id": "EE410",
+          "course_name": "Environmental Engineering Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Thursday 14:00-16:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Media and Arts",
+      "level": "Bachelor",
+      "years": 3,
+      "credits": 180,
+      "curriculum": [
+        {
+          "course_id": "MA101",
+          "course_name": "Introduction to Digital Media",
+          "credits": 5,
+          "schedule": "Wednesday 13:00-15:00"
+        },
+        {
+          "course_id": "MA102",
+          "course_name": "Fundamentals of Visual Arts",
+          "credits": 5,
+          "schedule": "Friday 14:00-16:00"
+        },
+        {
+          "course_id": "MA103",
+          "course_name": "History of Media and Communication",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "MA104",
+          "course_name": "Graphic Design",
+          "credits": 5,
+          "schedule": "Tuesday 15:00-17:00"
+        },
+        {
+          "course_id": "MA201",
+          "course_name": "Photography and Video Production",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "MA202",
+          "course_name": "Sound Design and Music Production",
+          "credits": 5,
+          "schedule": "Friday 09:00-11:00"
+        },
+        {
+          "course_id": "MA203",
+          "course_name": "Animation and Motion Graphics",
+          "credits": 5,
+          "schedule": "Monday 12:00-14:00"
+        },
+        {
+          "course_id": "MA204",
+          "course_name": "Web Design and Development",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "MA301",
+          "course_name": "Film Studies",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "MA302",
+          "course_name": "Interactive Media Design",
+          "credits": 5,
+          "schedule": "Friday 10:00-12:00"
+        },
+        {
+          "course_id": "MA303",
+          "course_name": "Digital Storytelling",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "MA304",
+          "course_name": "Media Ethics and Law",
+          "credits": 5,
+          "schedule": "Monday 08:00-10:00"
+        },
+        {
+          "course_id": "MA401",
+          "course_name": "Media Production Techniques",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "MA402",
+          "course_name": "Marketing and Branding for Creatives",
+          "credits": 5,
+          "schedule": "Friday 09:00-11:00"
+        },
+        {
+          "course_id": "MA403",
+          "course_name": "Portfolio Development",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "MA404",
+          "course_name": "Entrepreneurship in Media and Arts",
+          "credits": 5,
+          "schedule": "Friday 10:00-12:00"
+        },
+        {
+          "course_id": "MA405",
+          "course_name": "Media and Arts Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Tuesday 09:00-11:00"
+        },
+        {
+          "course_id": "MA406",
+          "course_name": "Media and Arts Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Thursday 09:00-11:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Entrepreneurship and Team Leadership",
+      "level": "Bachelor",
+      "years": 3,
+      "credits": 180,
+      "curriculum": [
+        {
+          "course_id": "ETL101",
+          "course_name": "Introduction to Entrepreneurship",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "ETL102",
+          "course_name": "Leadership Fundamentals",
+          "credits": 5,
+          "schedule": "Tuesday 08:00-10:00"
+        },
+        {
+          "course_id": "ETL103",
+          "course_name": "Business Communication Skills",
+          "credits": 5,
+          "schedule": "Monday 12:00-14:00"
+        },
+        {
+          "course_id": "ETL104",
+          "course_name": "Principles of Marketing",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "ETL201",
+          "course_name": "Financial Literacy for Entrepreneurs",
+          "credits": 5,
+          "schedule": "Friday 15:00-17:00"
+        },
+        {
+          "course_id": "ETL202",
+          "course_name": "Business Model Development",
+          "credits": 5,
+          "schedule": "Tuesday 15:00-17:00"
+        },
+        {
+          "course_id": "ETL203",
+          "course_name": "Team Building and Dynamics",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "ETL204",
+          "course_name": "Negotiation and Conflict Resolution",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "ETL301",
+          "course_name": "Digital Marketing Strategies",
+          "credits": 5,
+          "schedule": "Friday 15:00-17:00"
+        },
+        {
+          "course_id": "ETL302",
+          "course_name": "Project Management Essentials",
+          "credits": 5,
+          "schedule": "Friday 10:00-12:00"
+        },
+        {
+          "course_id": "ETL303",
+          "course_name": "Sustainable Entrepreneurship",
+          "credits": 5,
+          "schedule": "Wednesday 15:00-17:00"
+        },
+        {
+          "course_id": "ETL304",
+          "course_name": "Legal Aspects of Business",
+          "credits": 5,
+          "schedule": "Monday 13:00-15:00"
+        },
+        {
+          "course_id": "ETL401",
+          "course_name": "Innovation and Creativity in Business",
+          "credits": 5,
+          "schedule": "Monday 12:00-14:00"
+        },
+        {
+          "course_id": "ETL402",
+          "course_name": "Sales and Customer Relationship Management",
+          "credits": 5,
+          "schedule": "Wednesday 08:00-10:00"
+        },
+        {
+          "course_id": "ETL403",
+          "course_name": "Social Entrepreneurship",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "ETL404",
+          "course_name": "Funding and Venture Capital",
+          "credits": 5,
+          "schedule": "Wednesday 10:00-12:00"
+        },
+        {
+          "course_id": "ETL405",
+          "course_name": "Entrepreneurship Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Friday 08:00-12:00"
+        },
+        {
+          "course_id": "ETL406",
+          "course_name": "Entrepreneurship Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Thursday 09:00-13:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Textile and Material Engineering",
+      "level": "Bachelor",
+      "years": 4,
+      "credits": 240,
+      "curriculum": [
+        {
+          "course_id": "TME101",
+          "course_name": "Introduction to Textile Engineering",
+          "credits": 5,
+          "schedule": "Friday 08:00-10:00"
+        },
+        {
+          "course_id": "TME102",
+          "course_name": "Material Science Fundamentals",
+          "credits": 5,
+          "schedule": "Friday 15:00-17:00"
+        },
+        {
+          "course_id": "TME103",
+          "course_name": "Textile Fibers and Polymers",
+          "credits": 5,
+          "schedule": "Thursday 12:00-14:00"
+        },
+        {
+          "course_id": "TME104",
+          "course_name": "Mathematics for Engineers",
+          "credits": 5,
+          "schedule": "Friday 08:00-10:00"
+        },
+        {
+          "course_id": "TME201",
+          "course_name": "Physics of Textiles",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "TME202",
+          "course_name": "Yarn Manufacturing",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "TME203",
+          "course_name": "Fabric Manufacturing",
+          "credits": 5,
+          "schedule": "Friday 11:00-13:00"
+        },
+        {
+          "course_id": "TME204",
+          "course_name": "Textile Chemistry",
+          "credits": 5,
+          "schedule": "Thursday 13:00-15:00"
+        },
+        {
+          "course_id": "TME301",
+          "course_name": "Dyeing and Finishing",
+          "credits": 5,
+          "schedule": "Friday 15:00-17:00"
+        },
+        {
+          "course_id": "TME302",
+          "course_name": "Polymer and Fiber Science",
+          "credits": 5,
+          "schedule": "Friday 13:00-15:00"
+        },
+        {
+          "course_id": "TME303",
+          "course_name": "Textile Testing and Quality Control",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "TME304",
+          "course_name": "Advanced Material Science",
+          "credits": 5,
+          "schedule": "Monday 08:00-10:00"
+        },
+        {
+          "course_id": "TME401",
+          "course_name": "Smart Textiles and Wearable Technology",
+          "credits": 5,
+          "schedule": "Friday 08:00-10:00"
+        },
+        {
+          "course_id": "TME402",
+          "course_name": "Nonwoven Fabrics and Applications",
+          "credits": 5,
+          "schedule": "Wednesday 09:00-11:00"
+        },
+        {
+          "course_id": "TME403",
+          "course_name": "Sustainable Textile Production",
+          "credits": 5,
+          "schedule": "Wednesday 14:00-16:00"
+        },
+        {
+          "course_id": "TME404",
+          "course_name": "Environmental Impact of Textiles",
+          "credits": 5,
+          "schedule": "Tuesday 15:00-17:00"
+        },
+        {
+          "course_id": "TME405",
+          "course_name": "Composite Materials",
+          "credits": 5,
+          "schedule": "Tuesday 09:00-11:00"
+        },
+        {
+          "course_id": "TME406",
+          "course_name": "Nanotechnology in Textiles",
+          "credits": 5,
+          "schedule": "Wednesday 11:00-13:00"
+        },
+        {
+          "course_id": "TME407",
+          "course_name": "Textile Machinery and Maintenance",
+          "credits": 5,
+          "schedule": "Tuesday 15:00-17:00"
+        },
+        {
+          "course_id": "TME408",
+          "course_name": "Entrepreneurship in Textile Engineering",
+          "credits": 5,
+          "schedule": "Wednesday 09:00-11:00"
+        },
+        {
+          "course_id": "TME409",
+          "course_name": "Textile Engineering Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Monday 10:00-13:00"
+        },
+        {
+          "course_id": "TME410",
+          "course_name": "Textile Engineering Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Wednesday 13:00-16:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Environmental Engineering and Green Transition",
+      "level": "Bachelor",
+      "years": 4,
+      "credits": 240,
+      "curriculum": [
+        {
+          "course_id": "EGT101",
+          "course_name": "Introduction to Environmental Engineering",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "EGT102",
+          "course_name": "Fundamentals of Ecology and Sustainability",
+          "credits": 5,
+          "schedule": "Tuesday 14:00-16:00"
+        },
+        {
+          "course_id": "EGT103",
+          "course_name": "Environmental Chemistry",
+          "credits": 5,
+          "schedule": "Tuesday 10:00-12:00"
+        },
+        {
+          "course_id": "EGT104",
+          "course_name": "Mathematics for Environmental Engineers",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "EGT201",
+          "course_name": "Sustainable Energy Systems",
+          "credits": 5,
+          "schedule": "Friday 14:00-16:00"
+        },
+        {
+          "course_id": "EGT202",
+          "course_name": "Climate Change Science and Mitigation",
+          "credits": 5,
+          "schedule": "Friday 09:00-11:00"
+        },
+        {
+          "course_id": "EGT203",
+          "course_name": "Water Resource Engineering",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "EGT204",
+          "course_name": "Soil and Land Use Management",
+          "credits": 5,
+          "schedule": "Thursday 08:00-10:00"
+        },
+        {
+          "course_id": "EGT301",
+          "course_name": "Circular Economy Principles",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "EGT302",
+          "course_name": "Green Building and Infrastructure",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "EGT303",
+          "course_name": "Renewable Energy Technologies",
+          "credits": 5,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "EGT304",
+          "course_name": "Environmental Policy and Regulation",
+          "credits": 5,
+          "schedule": "Wednesday 08:00-10:00"
+        },
+        {
+          "course_id": "EGT401",
+          "course_name": "Waste Management and Recycling Technologies",
+          "credits": 5,
+          "schedule": "Thursday 09:00-11:00"
+        },
+        {
+          "course_id": "EGT402",
+          "course_name": "Air Quality Control",
+          "credits": 5,
+          "schedule": "Wednesday 13:00-15:00"
+        },
+        {
+          "course_id": "EGT403",
+          "course_name": "Environmental Monitoring and Data Analysis",
+          "credits": 5,
+          "schedule": "Tuesday 13:00-15:00"
+        },
+        {
+          "course_id": "EGT404",
+          "course_name": "Life Cycle Assessment",
+          "credits": 5,
+          "schedule": "Wednesday 09:00-11:00"
+        },
+        {
+          "course_id": "EGT405",
+          "course_name": "Sustainable Urban Development",
+          "credits": 5,
+          "schedule": "Wednesday 12:00-14:00"
+        },
+        {
+          "course_id": "EGT406",
+          "course_name": "Green Transition Project Management",
+          "credits": 5,
+          "schedule": "Thursday 15:00-17:00"
+        },
+        {
+          "course_id": "EGT407",
+          "course_name": "Ethics and Professional Practice in Environmental Engineering",
+          "credits": 5,
+          "schedule": "Tuesday 11:00-13:00"
+        },
+        {
+          "course_id": "EGT408",
+          "course_name": "Innovation in Environmental Technologies",
+          "credits": 5,
+          "schedule": "Friday 12:00-14:00"
+        },
+        {
+          "course_id": "EGT409",
+          "course_name": "Green Transition Capstone Project Part 1",
+          "credits": 10,
+          "schedule": "Thursday 11:00-13:00"
+        },
+        {
+          "course_id": "EGT410",
+          "course_name": "Green Transition Capstone Project Part 2",
+          "credits": 10,
+          "schedule": "Tuesday 08:00-10:00"
+        }
+      ]
+    }
+  ]
+}

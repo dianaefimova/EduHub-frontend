@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "degreeName": "Bachelor of Engineering in Software Engineering",
+    "totalCredits": 240,
+    "courses": ["101", "102", "103", "104", "105", "106", "107", "108", "109", "110"]
+  },
+  {
+    "id": "2",
+    "degreeName": "Bachelor of Engineering in Environmental Engineering",
+    "totalCredits": 240,
+    "courses": ["201", "202", "203", "204", "205", "206", "207", "208", "209", "210"]
+  }
+]

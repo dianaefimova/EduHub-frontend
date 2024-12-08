@@ -1,0 +1,34 @@
+[
+  {
+    "studentId": "123456",
+    "email": "test@example.com",
+    "password": "password123",
+    "name": "John Doe",
+    "DOB": "2000-01-15",
+    "degreeProgramId": "1",
+    "studyPeriod": "2021-2024",
+    "credits": 90,
+    "attendance": 1,
+    "coursesCompleted": [
+      { "courseId": "SE101", "grade": 3 },
+      { "courseId": "SE102", "grade": 4 }
+    ],
+    "coursesOngoing": ["SE103", "SE104"]
+  },
+  {
+    "studentId": "654321",
+    "email": "envirostudent@example.com",
+    "password": "enviro123",
+    "name": "Jane Smith",
+    "DOB": "2001-03-22",
+    "degreeProgramId": "2",
+    "studyPeriod": "2022-2025",
+    "credits": 60,
+    "attendance": 1,
+    "coursesCompleted": [
+      { "courseId": "201", "grade": 4 },
+      { "courseId": "202", "grade": 3 }
+    ],
+    "coursesOngoing": ["203", "204"]
+  }
+]

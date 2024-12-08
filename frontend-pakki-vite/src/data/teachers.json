@@ -1,0 +1,16 @@
+[
+    {
+      "teacherId": "T001",
+      "email": "profpatel@example.com",
+      "password": "teach123",
+      "name": "Prof. Patel",
+      "DOB": "1975-04-10",
+      "coursesTeaching": [
+        {
+          "courseId": "107",
+          "students": ["123456", "654321"]
+        }
+      ]
+    }
+  ]
+  
