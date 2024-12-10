@@ -223,9 +223,6 @@ const HomePage = () => {
                 <Text fontSize="sm" color={textColor}>
                   {attendanceStatus}
                 </Text>
-                <Link color="purple.400" fontSize="sm">
-                  Update Attendance
-                </Link>
               </VStack>
             </Box>
           </GridItem>
