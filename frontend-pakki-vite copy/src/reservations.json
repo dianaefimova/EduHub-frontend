@@ -1,0 +1,55 @@
+{
+    "reservations": [
+      {
+        "classroomName": "A01",
+        "amountOfPeople": 5,
+        "isReserved": true
+      },
+      {
+        "classroomName": "B02",
+        "amountOfPeople": 3,
+        "isReserved": false
+      },
+      {
+        "classroomName": "C03",
+        "amountOfPeople": 2,
+        "isReserved": true
+      },
+      {
+        "classroomName": "D04",
+        "amountOfPeople": 4,
+        "isReserved": false
+      },
+      {
+        "classroomName": "E05",
+        "amountOfPeople": 6,
+        "isReserved": true
+      },
+      {
+        "classroomName": "F06",
+        "amountOfPeople": 7,
+        "isReserved": false
+      },
+      {
+        "classroomName": "G07",
+        "amountOfPeople": 2,
+        "isReserved": true
+      },
+      {
+        "classroomName": "H08",
+        "amountOfPeople": 5,
+        "isReserved": false
+      },
+      {
+        "classroomName": "I09",
+        "amountOfPeople": 10,
+        "isReserved": true
+      },
+      {
+        "classroomName": "J10",
+        "amountOfPeople": 4,
+        "isReserved": false
+      }
+    ]
+  }
+  
