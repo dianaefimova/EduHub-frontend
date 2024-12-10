@@ -60,7 +60,7 @@ const HomePage = () => {
 
   // Format date of birth for display
   const formattedDOB =
-    user?.userType === 'student'
+    user?.DOB
       ? new Date(user.DOB).toLocaleDateString('gb-GB', {
           year: 'numeric',
           month: 'long',
