@@ -16,6 +16,7 @@ import { useUserContext } from '../context/UserContext';
 
 // Mock data and mock APIs
 import students from '../data/students.json'; // Static user data
+import teachers from '../data/teachers.json'; // Static teacher data
 import { fetchUserDetails, saveUserDetails } from '../utils/api'; // Dynamic user-specific data
 
 const Profile: React.FC = () => {
@@ -34,17 +35,24 @@ const Profile: React.FC = () => {
     const loadUserData = async () => {
       setLoading(true);
       try {
-        // Fetch user from students.json
-        const student = students.find((s) => s.studentId === user?.studentId);
-        if (!student) throw new Error('User not found in students.json');
-        
+        let userData;
+        if (user?.userType === 'student') {
+          // Fetch user from students.json
+          userData = students.find((s) => s.studentId === user?.studentId);
+          if (!userData) throw new Error('User not found in students.json');
+        } else if (user?.userType === 'teacher') {
+          // Fetch user from teachers.json
+          userData = teachers.find((t) => t.teacherId === user?.teacherId);
+          if (!userData) throw new Error('User not found in teachers.json');
+        }
+
         // Fetch additional user details (dynamic data)
-        const userDetails = await fetchUserDetails(user?.studentId);
+        const userDetails = await fetchUserDetails(user?.userType === 'student' ? user?.studentId : user?.teacherId);
 
         // Merge data from both sources
         setProfileData({
-          name: student.name,
-          email: student.email,
+          name: userData.name,
+          email: userData.email,
           bio: userDetails?.bio || '',
           picture: userDetails?.picture || '',
         });
@@ -61,7 +69,7 @@ const Profile: React.FC = () => {
       }
     };
 
-    if (user?.studentId) loadUserData();
+    if (user?.studentId || user?.teacherId) loadUserData();
   }, [user, toast]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -83,7 +91,7 @@ const Profile: React.FC = () => {
   const handleSave = async () => {
     setSaving(true);
     try {
-      await saveUserDetails(user?.studentId, {
+      await saveUserDetails(user?.userType === 'student' ? user?.studentId : user?.teacherId, {
         bio: profileData.bio,
         picture: profileData.picture,
       });

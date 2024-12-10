@@ -88,22 +88,23 @@ const HomePage = () => {
         gap={6}
         alignItems="start"
       >
-        {/* Credits */}
-        <GridItem>
-          <Box bg={cardBg} p={6} borderRadius="md" minHeight="200px">
-            <VStack align="center">
-              <Text fontSize="md" color={textColor}>
-                {user?.userType === 'student' ? user.degreeProgram : 'N/A'}
-              </Text>
-              <Heading size="lg" color="purple.400">
-                Credits
-              </Heading>
-              <Text fontSize="4xl" color={textColor}>
-                {user?.credits || 'N/A'}
-              </Text>
-            </VStack>
-          </Box>
-        </GridItem>
+        {user?.userType === 'student' && (
+          <GridItem>
+            <Box bg={cardBg} p={6} borderRadius="md" minHeight="200px">
+              <VStack align="center">
+                <Text fontSize="md" color={textColor}>
+                  {user.degreeProgram}
+                </Text>
+                <Heading size="lg" color="purple.400">
+                  Credits
+                </Heading>
+                <Text fontSize="4xl" color={textColor}>
+                  {user?.credits || 'N/A'}
+                </Text>
+              </VStack>
+            </Box>
+          </GridItem>
+        )}
 
         {/* Personal Info */}
         <GridItem>
@@ -129,11 +130,9 @@ const HomePage = () => {
           </Box>
         </GridItem>
 
-        {/* Attendance Status */}
         {/* GPA Section */}
-           {/* Curriculum */}
-           <GridItem>
-           {user?.userType === 'student' && degree && (
+        {user?.userType === 'student' && degree && (
+          <GridItem>
             <LinkBox bg={cardBg} p={6} borderRadius="md" minHeight="200px">
               <LinkOverlay as={RouterLink} to="/grades">
                 <Heading size="lg" mb={2} color={textColor}>
@@ -154,9 +153,23 @@ const HomePage = () => {
                 </VStack>
               </LinkOverlay>
             </LinkBox>
-          )}
-        </GridItem>
+          </GridItem>
+        )}
 
+        {user?.userType === 'teacher' && (
+          <GridItem>
+            <Box bg={cardBg} p={6} borderRadius="md" minHeight="200px">
+              <VStack align="center">
+                <Heading size="md" color="purple.400">
+                  Grades
+                </Heading>
+                <Text fontSize="sm" color={textColor}>
+                  Grades are only available for student users.
+                </Text>
+              </VStack>
+            </Box>
+          </GridItem>
+        )}
 
         {/* Calendar */}
         <GridItem rowSpan={{base: 1, md: 4}} colSpan={{ base: 1, md: 1 }}>
@@ -169,8 +182,6 @@ const HomePage = () => {
             </Box>
           </Box>
         </GridItem>
-        
-
 
         {/* Reservations */}
         <GridItem>
@@ -195,28 +206,30 @@ const HomePage = () => {
                   No reservations available
                 </Text>
               )}
-              <Link color="purple.400" fontSize="sm">
+              <Link as={RouterLink} to="/reservations" color="purple.400" fontSize="sm">
                 View All Reservations
               </Link>
             </VStack>
           </Box>
         </GridItem>
 
-        <GridItem>
-          <Box bg={cardBg} p={6} borderRadius="md" minHeight="200px">
-            <VStack align="center">
-              <Heading size="md" color="purple.400">
-                Attendance Status
-              </Heading>
-              <Text fontSize="sm" color={textColor}>
-                {attendanceStatus}
-              </Text>
-              <Link color="purple.400" fontSize="sm">
-                Update Attendance
-              </Link>
-            </VStack>
-          </Box>
-        </GridItem>
+        {user?.userType === 'student' && (
+          <GridItem>
+            <Box bg={cardBg} p={6} borderRadius="md" minHeight="200px">
+              <VStack align="center">
+                <Heading size="md" color="purple.400">
+                  Attendance Status
+                </Heading>
+                <Text fontSize="sm" color={textColor}>
+                  {attendanceStatus}
+                </Text>
+                <Link color="purple.400" fontSize="sm">
+                  Update Attendance
+                </Link>
+              </VStack>
+            </Box>
+          </GridItem>
+        )}
       </Grid>
     </Box>
   );
