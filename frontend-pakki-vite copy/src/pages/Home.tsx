@@ -43,6 +43,8 @@ const HomePage = () => {
         } finally {
           setLoading(false);
         }
+      } else if (user?.userType === 'teacher') {
+        setLoading(false);
       }
     };
     fetchUserDegree();
@@ -221,4 +223,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
